@@ -1,0 +1,28 @@
+Parametros;Acuracia;Precisao-Neutral;Precisao-Negative;Precisao-Positive;Revocação-Neutral;Revocação-Negative;Revocação-Positive;F1-Neutral;F1-Negative;F1-Positive;Media-F1
+MLP - Relu-camadas (1) e neurônios (50);0.68;0.79;0.42;0.48;0.78;0.20;0.71;0.78;0.27;0.57;0.54
+MLP - Logistic-camadas (1) e neurônios(50);0.72;0.79;0.56;0.53;0.85;0.20;0.65;0.82;0.29;0.58;0.56
+MLP - TanHip-camadas (1) e neurônios(50);0.66;0.78;0.31;0.48;0.76;0.16;0.71;0.77;0.21;0.57;0.52
+MLP - Relu-camadas(3) e neurônios (50);0.70;0.78;0.38;0.58;0.83;0.24;0.58;0.80;0.29;0.58;0.56
+MLP - Logistic-camadas (3) e neurônios(50);0.65;0.77;0.12;0.46;0.77;0.04;0.71;0.77;0.06;0.56;0.46
+MLP - TanHip-camadas (3) e neurônios(50);0.65;0.76;0.27;0.43;0.76;0.12;0.65;0.76;0.17;0.52;0.48
+MLP - Relu-camadas(6) e neurônios (50);0.68;0.74;0.11;0.54;0.87;0.04;0.45;0.80;0.06;0.49;0.45
+MLP - Logistic-camadas (6) e neurônios(50);0.68;0.68;0.00;0.00;1.00;0.00;0.00;0.81;0.00;0.00;0.27
+MLP - TanHip-camadas (6) e neurônios(50);0.64;0.77;0.36;0.41;0.74;0.16;0.65;0.75;0.22;0.50;0.49
+MLP - Relu-camadas (1) e neurônios (100);0.68;0.80;0.31;0.50;0.76;0.20;0.74;0.78;0.24;0.60;0.54
+MLP - Logistic-camadas (1) e neurônios(100);0.70;0.79;0.45;0.50;0.80;0.20;0.71;0.80;0.28;0.59;0.55
+MLP - TanHip-camadas (1) e neurônios(100);0.66;0.77;0.31;0.48;0.77;0.16;0.68;0.77;0.21;0.56;0.51
+MLP - Relu-camadas(3) e neurônios (100);0.69;0.76;0.40;0.48;0.84;0.16;0.52;0.80;0.23;0.50;0.51
+MLP - Logistic-camadas (3) e neurônios(100);0.65;0.78;0.31;0.45;0.75;0.16;0.68;0.76;0.21;0.54;0.50
+MLP - TanHip-camadas (3) e neurônios(100);0.66;0.75;0.31;0.49;0.79;0.16;0.58;0.77;0.21;0.53;0.50
+MLP - Relu-camadas(6) e neurônios (100);0.69;0.74;0.12;0.59;0.88;0.04;0.52;0.80;0.06;0.55;0.47
+MLP - Logistic-camadas (6) e neurônios(100);0.68;0.68;0.00;0.00;1.00;0.00;0.00;0.81;0.00;0.00;0.27
+MLP - TanHip-camadas (6) e neurônios(100);0.65;0.75;0.33;0.44;0.78;0.20;0.52;0.77;0.25;0.48;0.50
+MLP - Relu-camadas (1) e neurônios (150);0.68;0.79;0.36;0.50;0.78;0.20;0.71;0.78;0.26;0.59;0.54
+MLP - Logistic-camadas (1) e neurônios(150);0.70;0.80;0.45;0.51;0.80;0.20;0.74;0.80;0.28;0.61;0.56
+MLP - TanHip-camadas (1) e neurônios(150);0.66;0.78;0.31;0.47;0.77;0.16;0.68;0.77;0.21;0.55;0.51
+MLP - Relu-camadas(3) e neurônios (150);0.70;0.77;0.45;0.54;0.83;0.20;0.61;0.80;0.28;0.58;0.55
+MLP - Logistic-camadas (3) e neurônios(150);0.65;0.77;0.18;0.47;0.77;0.08;0.68;0.77;0.11;0.55;0.48
+MLP - TanHip-camadas (3) e neurônios(150);0.67;0.76;0.38;0.46;0.80;0.20;0.55;0.78;0.26;0.50;0.51
+MLP - Relu-camadas(6) e neurônios (150);0.68;0.74;0.20;0.54;0.85;0.08;0.48;0.79;0.11;0.51;0.47
+MLP - Logistic-camadas (6) e neurônios(150);0.68;0.68;0.00;0.00;1.00;0.00;0.00;0.81;0.00;0.00;0.27
+MLP - TanHip-camadas (6) e neurônios(150);0.69;0.76;0.29;0.55;0.84;0.16;0.52;0.80;0.21;0.53;0.51
