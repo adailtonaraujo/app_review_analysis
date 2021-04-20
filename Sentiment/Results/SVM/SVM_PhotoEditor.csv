@@ -1,0 +1,15 @@
+Parametros;Acuracia;Precisao-Neutral;Precisao-Negative;Precisao-Positive;Revocação-Neutral;Revocação-Negative;Revocação-Positive;F1-Neutral;F1-Negative;F1-Positive;Media-F1
+SVM - kernel linear e random 42;0.67;0.62;0.00;0.86;0.96;0.00;0.49;0.75;0.00;0.62;0.46
+SVM - kernel rbf scale e random 42;0.59;0.55;0.00;1.00;1.00;0.00;0.24;0.71;0.00;0.39;0.37
+SVM - kernel rbf auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel sigmoid auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel sigmoid scale e random 42;0.67;0.60;0.00;1.00;1.00;0.00;0.43;0.75;0.00;0.60;0.45
+SVM - kernel poly g2 auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g2 scale e random 42;0.52;0.51;0.00;1.00;1.00;0.00;0.05;0.67;0.00;0.10;0.26
+SVM - kernel poly g3 auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g3 scale e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g4 auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g4 scale e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g5 scale e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g5 auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
+SVM - kernel poly g6 auto e random 42;0.49;0.49;0.00;0.00;1.00;0.00;0.00;0.66;0.00;0.00;0.22
