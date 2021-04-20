@@ -1,0 +1,28 @@
+Parametros;MAE;MSE;R2
+MLPR_Relu-camadas (1) e neurônios (50);0.0230;0.0024;-0.3124
+MLPR_Logistic-camadas (1) e neurônios(50);0.0203;0.0022;-0.2229
+MLPR_TanHip-camadas (1) e neurônios(50);0.0251;0.0025;-0.4123
+MLPR_Relu-camadas(3) e neurônios (50);0.0175;0.0020;-0.0704
+MLPR_Logistic-camadas (3) e neurônios(50);0.0166;0.0020;-0.0022
+MLPR_TanHip-camadas (3) e neurônios(50);0.0199;0.0022;-0.1853
+MLPR_Relu-camadas(6) e neurônios (50);0.0177;0.0021;-0.1034
+MLPR_Logistic-camadas (6) e neurônios(50);0.0156;0.0020;-0.0075
+MLPR_TanHip-camadas (6) e neurônios(50);0.0174;0.0020;-0.0796
+MLPR_Relu-camadas (1) e neurônios (100);0.0243;0.0024;-0.3562
+MLPR_Logistic-camadas (1) e neurônios(100);0.0172;0.0020;-0.0648
+MLPR_TanHip-camadas (1) e neurônios(100);0.0232;0.0023;-0.2966
+MLPR_Relu-camadas(3) e neurônios (100);0.0196;0.0022;-0.2081
+MLPR_Logistic-camadas (3) e neurônios(100);0.0140;0.0020;-0.0082
+MLPR_TanHip-camadas (3) e neurônios(100);0.0195;0.0021;-0.1413
+MLPR_Relu-camadas(6) e neurônios (100);0.0170;0.0021;-0.1173
+MLPR_Logistic-camadas (6) e neurônios(100);0.0173;0.0020;-0.0248
+MLPR_TanHip-camadas (6) e neurônios(100);0.0160;0.0020;-0.0592
+MLPR_Relu-camadas (1) e neurônios (150);0.0239;0.0024;-0.3356
+MLPR_Logistic-camadas (1) e neurônios(150);0.0172;0.0020;-0.0635
+MLPR_TanHip-camadas (1) e neurônios(150);0.0228;0.0024;-0.3114
+MLPR_Relu-camadas(3) e neurônios (150);0.0212;0.0024;-0.2525
+MLPR_Logistic-camadas (3) e neurônios(150);0.0175;0.0020;-0.0164
+MLPR_TanHip-camadas (3) e neurônios(150);0.0194;0.0021;-0.1534
+MLPR_Relu-camadas(6) e neurônios (150);0.0169;0.0024;-0.2425
+MLPR_Logistic-camadas (6) e neurônios(150);0.0152;0.0020;-0.0155
+MLPR_TanHip-camadas (6) e neurônios(150);0.0168;0.0020;-0.0456

@@ -1,0 +1,15 @@
+Parametros;MAE;MSE;R2
+SVR_kernel linear;0.0479;0.0047;-2.0835
+SVR_kernel rbf scale;0.0857;0.0086;-5.0842
+SVR_kernel rbf auto;0.0937;0.0098;-6.0888
+SVR_kernel sigmoid auto;0.0938;0.0098;-6.0978
+SVR_kernel sigmoid scale;0.0467;0.0047;-2.0653
+SVR_kernel poly g2 auto;0.0938;0.0098;-6.1014
+SVR_kernel poly g2 scale;0.0938;0.0100;-6.1347
+SVR_kernel poly g3 auto;0.0938;0.0098;-6.0994
+SVR_kernel poly g3 scale;0.0959;0.0103;-6.4379
+SVR_kernel poly g4 auto;0.0938;0.0098;-6.0973
+SVR_kernel poly g4 scale;0.0960;0.0103;-6.4439
+SVR_kernel poly g5 scale;0.0960;0.0103;-6.4441
+SVR_kernel poly g5 auto;0.0938;0.0098;-6.0952
+SVR_kernel poly g6 auto;0.0937;0.0098;-6.0887
