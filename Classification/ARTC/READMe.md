@@ -5,7 +5,7 @@ Library to use a text collectin present in the article: On the automatic classif
 
 # How To use
 
-!pip install git+https://github.com/
+!pip install git+https://github.com/adailtonaraujo/app_review_analysis/tree/master/Classification/ARTC
 
 from TextCollectionsForClassificationLibrary import dataset
 
