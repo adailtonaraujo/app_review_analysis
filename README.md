@@ -1,4 +1,5 @@
 # Pipeline for app reviews analysis
+<img src="https://raw.githubusercontent.com/adailtonaraujo/RE-BERT/main/pipeline.png" alt="drawing" width="100"/>
 
 ## Classification
 
