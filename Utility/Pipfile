@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+scipy = "*"
+sklearn = "*"
+numpy = "*"
+tqdm = "*"
+pandas = "*"
+gdown = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
