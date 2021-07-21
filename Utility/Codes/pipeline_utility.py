@@ -26,6 +26,17 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 
+def normalize_thumbs(df):
+    max_ = np.max(df['thumbsUpCount'].to_list())
+
+    thumbs_up = list()
+
+    for num in df['thumbsUpCount'].to_list():
+        thumbs_up.append(num / max_)
+
+    return thumbs_up
+
+
 def has_numbers(input_string):
     return any(char.isdigit() for char in input_string)
 
@@ -217,9 +228,11 @@ def preprocessing_evaluate(df, dataset, preprocessing, models):
     term_weight_list = ['term-frequency-IDF']
     language = 'multilingual'
 
+    thumbsup = normalize_thumbs(df)
+
     if preprocessing == 'BoW':
 
-        train_test = train_test_split_pipeline(skf, df['content'].to_list(), df['thumbsUpCount'].to_list())
+        train_test = train_test_split_pipeline(skf, df['content'].to_list(), thumbsup)
 
         for term_weight in term_weight_list:
             print(preprocessing + ' ' + term_weight)
@@ -232,7 +245,7 @@ def preprocessing_evaluate(df, dataset, preprocessing, models):
                                  vectorizer=vectorizer)
     elif preprocessing == 'DBERTML':
 
-        train_test = train_test_split_pipeline(skf, df['DBERTML'].to_list(), df['thumbsUpCount'].to_list())
+        train_test = train_test_split_pipeline(skf, df['DBERTML'].to_list(), thumbsup)
 
         print(preprocessing)
 
