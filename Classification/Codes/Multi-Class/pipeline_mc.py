@@ -185,7 +185,7 @@ def write_results(metrics, file_name, line_parameters, path_results):
     file_.close()
 
 
-def make_representation(train_test, preprocessing, vectorizer):
+def make_representation(train_test, preprocessing, is_mnb, vectorizer):
     lista_reps = list()
 
     for old_x_train, old_x_test, old_y_train, old_y_test in train_test:
@@ -199,14 +199,19 @@ def make_representation(train_test, preprocessing, vectorizer):
             lista_reps.append((x_train.toarray(), x_test.toarray(), old_y_train, old_y_test))
 
         else:
-            lista_reps.append((old_x_train, old_x_test, old_y_train, old_y_test))
+            if is_mnb:
+                x_train = np.abs(np.min(old_x_train)) + old_x_train
+                x_test = np.abs(np.min(old_x_test)) + old_x_test
+                lista_reps.append((x_train, x_test, old_y_train, old_y_test))
+            else:
+                lista_reps.append((old_x_train, old_x_test, old_y_train, old_y_test))
 
     return lista_reps
 
 
-def make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models,
+def make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models, is_mnb,
                          vectorizer=CountVectorizer()):
-    representations = make_representation(train_test, preprocessing, vectorizer=vectorizer)
+    representations = make_representation(train_test, preprocessing, is_mnb, vectorizer=vectorizer)
 
     evaluate_models(models, representations, file_name, line_parameters, path_results)
 
@@ -214,7 +219,7 @@ def make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, 
     collect()
 
 
-def preprocessing_evaluate(df, preprocessing, models):
+def preprocessing_evaluate(df, preprocessing, models, is_mnb):
     path_results = '../../Results/'
     folds = 10
     skf = fold_validation(folds)
@@ -233,7 +238,7 @@ def preprocessing_evaluate(df, preprocessing, models):
 
             file_name = 'ARE_' + preprocessing + '_' + term_weight
 
-            make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models,
+            make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models, is_mnb,
                                  vectorizer=vectorizer)
     else:
 
@@ -241,20 +246,20 @@ def preprocessing_evaluate(df, preprocessing, models):
 
         file_name = 'ARE_' + preprocessing
 
-        make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models)
+        make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models, is_mnb)
 
     del train_test
     collect()
 
 
-def run(dataset, models, all_one_preprocessing):
+def run(dataset, models, all_one_preprocessing, is_mnb):
     prepros = ['BERT', 'DBERT', 'RoBERTa', 'DBERTML', 'BoW']
 
     if all_one_preprocessing != 'All':
-        preprocessing_evaluate(dataset, all_one_preprocessing, models)
+        preprocessing_evaluate(dataset, all_one_preprocessing, models, is_mnb)
     else:
         for prepro in tqdm(prepros):
-            preprocessing_evaluate(dataset, prepro, models)
+            preprocessing_evaluate(dataset, prepro, models, is_mnb)
 
 
 def cosseno(x, y):
@@ -351,7 +356,9 @@ if __name__ == '__main__':
         "KNN_k=27": KNeighborsClassifier(n_neighbors=27, algorithm='ball_tree', metric=cosseno),
         "KNN_k=28": KNeighborsClassifier(n_neighbors=28, algorithm='ball_tree', metric=cosseno),
         "KNN_k=29": KNeighborsClassifier(n_neighbors=29, algorithm='ball_tree', metric=cosseno),
-        "KNN_k=30": KNeighborsClassifier(n_neighbors=30, algorithm='ball_tree', metric=cosseno),
+        "KNN_k=30": KNeighborsClassifier(n_neighbors=30, algorithm='ball_tree', metric=cosseno)
+    }
+    models_MNB = {
         "MNB_alpha 1.0_fit_prior": MultinomialNB(alpha=1.0, fit_prior=True),
         "MNB_alpha 1.0": MultinomialNB(alpha=1.0, fit_prior=False),
         "MNB_alpha 0.9_fit_prior": MultinomialNB(alpha=0.9, fit_prior=True),
@@ -378,6 +385,11 @@ if __name__ == '__main__':
 
     all_one_preprocessing = sys.argv[1]
 
+    is_mnb = sys.argv[2]
+
     dataset = pd.read_pickle('../../Dataset/ARE.plk')
 
-    run(dataset, models, all_one_preprocessing)
+    if is_mnb == 'MNB':
+        run(dataset, models_MNB, all_one_preprocessing, True)
+    else:
+        run(dataset, models, all_one_preprocessing, False)
