@@ -1,0 +1,28 @@
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/mpsgolo/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /home/mpsgolo/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package wordnet to /home/mpsgolo/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+  0%|          | 0/93 [00:00<?, ?it/s]  1%|          | 1/93 [02:03<3:09:22, 123.51s/it]  2%|▏         | 2/93 [03:53<2:55:38, 115.81s/it]  3%|▎         | 3/93 [05:41<2:48:09, 112.10s/it]  4%|▍         | 4/93 [07:32<2:45:19, 111.46s/it]  5%|▌         | 5/93 [09:10<2:36:47, 106.90s/it]  6%|▋         | 6/93 [11:31<2:51:42, 118.41s/it]  8%|▊         | 7/93 [13:16<2:43:32, 114.10s/it]  9%|▊         | 8/93 [16:29<3:17:13, 139.21s/it] 10%|▉         | 9/93 [18:35<3:08:44, 134.82s/it] 11%|█         | 10/93 [22:01<3:37:09, 156.99s/it] 12%|█▏        | 11/93 [24:36<3:33:41, 156.36s/it] 13%|█▎        | 12/93 [27:58<3:49:50, 170.25s/it] 14%|█▍        | 13/93 [32:19<4:23:33, 197.67s/it] 15%|█▌        | 14/93 [36:31<4:42:05, 214.24s/it] 16%|█▌        | 15/93 [41:57<5:22:02, 247.72s/it] 17%|█▋        | 16/93 [52:06<7:37:41, 356.64s/it] 18%|█▊        | 17/93 [1:00:25<8:25:58, 399.45s/it] 19%|█▉        | 18/93 [1:06:13<7:59:52, 383.90s/it] 20%|██        | 19/93 [1:18:24<10:02:01, 488.13s/it] 22%|██▏       | 20/93 [1:26:12<9:46:23, 481.97s/it]  23%|██▎       | 21/93 [1:32:50<9:08:15, 456.89s/it] 24%|██▎       | 22/93 [1:46:48<11:16:05, 571.35s/it] 25%|██▍       | 23/93 [1:57:18<11:27:08, 588.98s/it] 26%|██▌       | 24/93 [2:03:02<9:52:37, 515.33s/it]  27%|██▋       | 25/93 [2:16:35<11:25:18, 604.69s/it] 28%|██▊       | 26/93 [2:27:19<11:28:32, 616.60s/it] 29%|██▉       | 27/93 [2:35:14<10:31:18, 573.92s/it] 30%|███       | 28/93 [2:50:49<12:19:07, 682.27s/it] 31%|███       | 29/93 [3:02:13<12:08:21, 682.84s/it] 32%|███▏      | 30/93 [3:14:13<12:08:34, 693.88s/it] 33%|███▎      | 31/93 [3:38:40<15:56:40, 925.82s/it] 34%|███▍      | 32/93 [3:57:36<16:45:32, 989.05s/it] 35%|███▌      | 33/93 [4:05:15<13:49:56, 829.95s/it] 37%|███▋      | 34/93 [4:22:05<14:29:22, 884.10s/it] 38%|███▊      | 35/93 [4:36:15<14:04:31, 873.65s/it] 39%|███▊      | 36/93 [4:49:32<13:28:17, 850.84s/it] 40%|███▉      | 37/93 [5:12:17<15:37:56, 1004.94s/it] 41%|████      | 38/93 [5:37:28<17:40:22, 1156.77s/it] 42%|████▏     | 39/93 [5:54:13<16:40:10, 1111.30s/it] 43%|████▎     | 40/93 [6:32:06<21:29:29, 1459.80s/it] 44%|████▍     | 41/93 [6:57:07<21:15:49, 1472.11s/it] 45%|████▌     | 42/93 [8:22:06<36:16:16, 2560.32s/it] 46%|████▌     | 43/93 [9:14:46<38:03:31, 2740.22s/it] 47%|████▋     | 44/93 [9:55:05<35:59:01, 2643.70s/it] 48%|████▊     | 45/93 [10:35:54<34:28:23, 2585.49s/it] 49%|████▉     | 46/93 [11:16:55<33:15:49, 2547.86s/it] 51%|█████     | 47/93 [11:58:02<32:14:50, 2523.71s/it] 52%|█████▏    | 48/93 [12:39:12<31:20:37, 2507.51s/it] 53%|█████▎    | 49/93 [13:20:32<30:32:48, 2499.29s/it] 54%|█████▍    | 50/93 [14:01:45<29:45:30, 2491.40s/it] 55%|█████▍    | 51/93 [14:43:00<29:00:40, 2486.67s/it] 56%|█████▌    | 52/93 [15:23:57<28:12:59, 2477.56s/it] 57%|█████▋    | 53/93 [16:05:07<27:30:13, 2475.33s/it] 58%|█████▊    | 54/93 [16:46:01<26:44:53, 2469.07s/it] 59%|█████▉    | 55/93 [17:27:06<26:02:57, 2467.82s/it] 60%|██████    | 56/93 [18:08:33<25:25:20, 2473.52s/it] 61%|██████▏   | 57/93 [18:49:48<24:44:23, 2473.98s/it] 62%|██████▏   | 58/93 [19:32:42<24:20:36, 2503.91s/it] 63%|██████▎   | 59/93 [20:14:08<23:35:54, 2498.66s/it] 65%|██████▍   | 60/93 [20:56:02<22:56:43, 2503.13s/it] 66%|██████▌   | 61/93 [21:38:03<22:17:56, 2508.63s/it] 67%|██████▋   | 62/93 [22:22:26<22:00:05, 2555.02s/it] 68%|██████▊   | 63/93 [23:13:33<22:34:10, 2708.34s/it] 69%|██████▉   | 64/93 [23:58:05<21:43:49, 2697.55s/it] 70%|██████▉   | 65/93 [24:43:34<21:03:12, 2706.88s/it] 71%|███████   | 66/93 [25:28:12<20:14:14, 2698.32s/it] 72%|███████▏  | 67/93 [26:12:46<19:26:10, 2691.16s/it] 73%|███████▎  | 68/93 [26:57:24<18:39:37, 2687.11s/it] 74%|███████▍  | 69/93 [28:10:50<21:21:05, 3202.73s/it] 75%|███████▌  | 70/93 [29:50:42<25:48:32, 4039.68s/it] 76%|███████▋  | 71/93 [31:25:09<27:40:11, 4527.79s/it] 76%|███████▋  | 71/93 [31:25:09<9:44:08, 1593.09s/it] 
+Traceback (most recent call last):
+  File "pipeline_mc.py", line 383, in <module>
+    run(dataset, models, all_one_preprocessing)
+  File "pipeline_mc.py", line 254, in run
+    preprocessing_evaluate(dataset, all_one_preprocessing, models)
+  File "pipeline_mc.py", line 244, in preprocessing_evaluate
+    make_prepro_evaluate(train_test, preprocessing, line_parameters, file_name, path_results, models)
+  File "pipeline_mc.py", line 211, in make_prepro_evaluate
+    evaluate_models(models, representations, file_name, line_parameters, path_results)
+  File "pipeline_mc.py", line 158, in evaluate_models
+    values = evaluate_model(models[model], reps[0], reps[1], reps[2], reps[3])
+  File "pipeline_mc.py", line 139, in evaluate_model
+    model.fit(x_train, y_train)
+  File "/home/mpsgolo/.local/share/virtualenvs/Multi-Class-nU7_lnRe/lib/python3.7/site-packages/sklearn/naive_bayes.py", line 638, in fit
+    self._count(X, Y)
+  File "/home/mpsgolo/.local/share/virtualenvs/Multi-Class-nU7_lnRe/lib/python3.7/site-packages/sklearn/naive_bayes.py", line 771, in _count
+    check_non_negative(X, "MultinomialNB (input X)")
+  File "/home/mpsgolo/.local/share/virtualenvs/Multi-Class-nU7_lnRe/lib/python3.7/site-packages/sklearn/utils/validation.py", line 1125, in check_non_negative
+    raise ValueError("Negative values in data passed to %s" % whom)
+ValueError: Negative values in data passed to MultinomialNB (input X)
