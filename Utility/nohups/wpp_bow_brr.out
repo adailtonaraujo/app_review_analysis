@@ -6,4 +6,4 @@
 [nltk_data] Downloading package wordnet to /home/mpsgolo/nltk_data...
 [nltk_data]   Package wordnet is already up-to-date!
 BoW term-frequency-IDF
-  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [4:41:28<00:00, 16888.31s/it]100%|██████████| 1/1 [4:41:28<00:00, 16888.31s/it]
